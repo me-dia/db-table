@@ -3,12 +3,13 @@ library to manage all db operations
 <br/>
 operations: like select update insert delete
 <br/>
-after we have defined the db connection parameters<br/>
+after we have defined the db connection parameters
+<PRE>
 define("DB_HOST","localhost");<br/>
 define("DB_USER","root");<br/>
 define("DB_PASSWORD","root");<br/>
 define("DB_NAME","wordpress");<br/>
-
+</PRE>
 and we defined the table in a class<br/> 
 <PRE>
 require_once "db_table.php";
