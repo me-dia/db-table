@@ -40,3 +40,5 @@ $rec = wordpress::find_by_id(27);
 $rec->delete();
 
 </PRE>
+
+I used the static dependency injection in the db_table class
